@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pottings</title>
+  </head>
+  <body>
+    <header>
+      <div class="cta">
+        <p>Are you interested in sustainable gardening?</p>
+        <button>Browse our events</button>
+      </div>
+      <div class="logo">
+        <img src="./Images/Pottings.png" alt="Pottings Logo" />
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#events">Events</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div id="about" class="about">
+        <div class="about-overlay">
+          <h2>About</h2>
+          <p>
+            Whether you have green-fingers, or just a green-thumb, Pottings is
+            the place to come for a community of people passionate about their
+            gardens!
+          </p>
+        </div>
+        <div class="header">
+          <img
+            src="./Images/benjamin-combs-wuU_SSxDeS0-unspl.jpg"
+            alt="Gardening Image"
+          />
+        </div>
+      </div>
+
+      <div id="gallery" class="gallery">
+        <h2>Gallery</h2>
+      </div>
+      <div class="gallery-1">
+        <img
+          src="./Images/annie-spratt-ch_j5gH6INY-unsplas.jpg"
+          alt="Gardening Image"
+        />
+      </div>
+      <div class="gallery-2">
+        <img
+          src="./Images/neonbrand-QMj47_NSmfs-unsplash.jpg"
+          alt="Gardening Image"
+        />
+      </div>
+      <div class="gallery-3">
+        <img
+          src="./Images/sincerely-media-Agr1YTrzYPI-unsp.jpg"
+          alt="Gardening Image"
+        />
+      </div>
+      <div class="gallery-4">
+        <img
+          src="./Images/jonathan-kemper-CbZh3kaPxrE-unsp.jpg"
+          alt="Gardening Image"
+        />
+      </div>
+      <div class="gallery-5">
+        <img
+          src="./Images/markus-spiske-sFydXGrt5OA-unspla.jpg"
+          alt="Gardening Image"
+        />
+      </div>
+      <div id="events" class="events">
+        <h2>Events</h2>
+      </div>
+      <div class="events-1">
+        <h3>Propagate with Polly</h3>
+        <p>
+          Bring along any house plants or succulents that need to be propagated,
+          and Polly will take you through the process!
+        </p>
+      </div>
+      <div class="events-2">
+        <h3>Community Coffee Morning</h3>
+        <p>
+          Share a slice of cake and coffee while tending to the community
+          garden!
+        </p>
+      </div>
+      <div class="events-3">
+        <h3>Pottings People</h3>
+        <p>
+          Our monthly event featuring a workshop, film screening, or talk from
+          one of the amazing gardeners in our community!
+        </p>
+      </div>
+      <div id="contact" class="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+            required
+          />
+          <label for="email">Your email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email address..."
+            required
+          />
+          <label for="subject">Subject</label>
+          <select id="subject" name="subject" required>
+            <option value="join">Choose subject</option>
+            <option value="join">How can I join?</option>
+            <option value="advice">Gardening Advice</option>
+            <option value="question">I have a question</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write something.."
+            style="height: 200px"
+            required
+          ></textarea>
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>info@pottings.com</p>
+      <p>17 Plant Street, Forest Wood</p>
+      <p>01234 56789</p>
+      <h6>Copyright 2021</h6>
+      <br />
+    </footer>
+  </body>
+</html>
